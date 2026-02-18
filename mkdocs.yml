@@ -1,0 +1,48 @@
+site_name: OpenViking 解析系列
+site_description: OpenViking 项目由浅入深解析
+repo_url: https://github.com/hilaily/openviking
+edit_uri: edit/main/docs/
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+nav:
+  - 目录: index.md
+  - 入门认知:
+    - 01-项目是什么.md
+    - 02-快速体验.md
+  - 核心概念:
+    - 03-三大核心抽象.md
+    - 04-三层信息模型.md
+    - 05-虚拟文件系统.md
+  - 架构设计:
+    - 06-系统架构总览.md
+    - 07-双层存储架构.md
+    - 08-检索机制详解.md
+    - 09-会话与记忆管理.md
+  - 高级特性:
+    - 10-自动记忆迭代.md
+    - 11-部署模式与扩展.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

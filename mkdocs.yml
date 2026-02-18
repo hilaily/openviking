@@ -1,7 +1,6 @@
 site_name: OpenViking 解析系列
 site_description: OpenViking 项目由浅入深解析
 repo_url: https://github.com/hilaily/openviking
-edit_uri: edit/main/docs/
 docs_dir: docs
 
 theme:
@@ -11,7 +10,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - search.suggest
-    - navigation.tracking
   palette:
     - scheme: default
       primary: indigo
